@@ -12,7 +12,16 @@ namespace LinqProblems
         {
             // WITH LINQ
 
-            var names = new Words().names;
+            Word_List word_List = new Word_List();
+            List<Words> words = word_List.LetterExtractor();
+
+            List<Words> wordsWithTH = words.FindAll(w => w.word.Contains("th"));
+            foreach (var word in wordsWithTH)
+            {
+                Console.WriteLine(word.word);
+            }
+            Console.ReadLine();
         }
+        
     }
 }
