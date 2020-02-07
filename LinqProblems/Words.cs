@@ -13,8 +13,7 @@ namespace LinqProblems
         //Member Variables (HAS A)
 
         public string word;
-        public string substr1;
-
+       
         //Constructor
        
         //Member Methods (CAN DO)

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace LinqProblems
 {
-    class Word_List
+    public class Word_List
     {
         public List<Words> LetterExtractor()
         {
