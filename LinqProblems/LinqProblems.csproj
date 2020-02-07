@@ -43,6 +43,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="LinqProblemFour.cs" />
+    <Compile Include="Word_List.cs" />
+    <Compile Include="Words.cs" />
+    <Compile Include="LinqProblemThree.cs" />
+    <Compile Include="LinqProblemTwo.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

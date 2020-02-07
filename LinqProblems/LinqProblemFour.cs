@@ -6,13 +6,15 @@ using System.Threading.Tasks;
 
 namespace LinqProblems
 {
-    class Program
+    class LinqProblemFour
     {
-        static void Main(string[] args)
-        {
-            // WITH LINQ
 
-            var names = new Words().names;
-        }
+        //Member Variables (HAS A)
+
+        //Constructor
+
+        //Member Methods (CAN DO)
+
+
     }
 }
