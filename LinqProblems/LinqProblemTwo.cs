@@ -12,7 +12,6 @@ namespace LinqProblems
         //Member Variables (HAS A)
         public List<string> duplicates;
         
-        
         //Constructor
         public LinqProblemTwo()
         {

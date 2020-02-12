@@ -23,8 +23,14 @@ namespace LinqProblems
 
             //-------------------------------------------------------#2
 
-            LinqProblemTwo linqProblemTwo = new LinqProblemTwo();
-            linqProblemTwo.RemoveDuplicates();
+            //LinqProblemTwo linqProblemTwo = new LinqProblemTwo();
+            //linqProblemTwo.RemoveDuplicates();
+
+
+            //--------------------------------------------------------#3
+            LinqProblemThree linqProblemThree = new LinqProblemThree();
+            
+            linqProblemThree.CalculateClassAverage(linqProblemThree.classGrades);
 
             Console.ReadLine();
 
